@@ -9,7 +9,7 @@ CheckContext.themeValue = "red";
 class App extends React.Component {
   render() {
     return (
-      <CheckContext.Provider value={CheckContext.themeValue}>
+      <CheckContext.Provider value="def">
         <CheckComp />
       </CheckContext.Provider>
     );
